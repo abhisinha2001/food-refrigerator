@@ -1,0 +1,16 @@
+https://fonts.google.com/specimen/Montserrat?query=montserrat
+
+Headers/Product Name: Montserrat, Semi bold, #181725
+Product Description: Montserrat, Semi bold, #7C7C7C
+Expiry Dates/Num of items: Montserrat, Semi bold, #F3603F
+Navigation Bar: Montserrat, Bold, #181725
+See all: Montserrat, Semi bold, #53B175
+Search bar: Montserrat, Semi bold, #7C7C7C
+Button (recipes): Montserrat, Semi bold, #FFFFFF
+
+Standard Colours:
+#181725
+#7C7C7C
+#F3603F
+#53B175
+#FFFFFF
