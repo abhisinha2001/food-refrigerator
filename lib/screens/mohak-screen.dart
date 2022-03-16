@@ -58,8 +58,9 @@ class _ChickenEggPageState extends State<ChickenEggPage> {
                 crossAxisAlignment: CrossAxisAlignment.center ,
 
                 children: [
-                  TextButton(onPressed: (){}, child: const Text('Track Calories') ),
-                  TextButton(onPressed: (){}, child: const Text('Add to Groceries') ),
+                  TextButton(child: Text('Track Calories'),style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.white)),onPressed: () {}),
+            
+                  TextButton(child: Text('Add to Groceries'),style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.white)),onPressed: () {}),
                 ],
               ),
             ),
