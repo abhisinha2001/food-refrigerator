@@ -1,17 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ecommerce_app/src/pages/home_page.dart';
-import 'package:flutter_ecommerce_app/src/pages/shopping_cart_page.dart';
-import 'package:flutter_ecommerce_app/src/themes/light_color.dart';
-import 'package:flutter_ecommerce_app/src/themes/theme.dart';
-import 'package:flutter_ecommerce_app/src/widgets/BottomNavigationBar/bottom_navigation_bar.dart';
-import 'package:flutter_ecommerce_app/src/widgets/title_text.dart';
-import 'package:flutter_ecommerce_app/src/widgets/extentions.dart';
+import '../src/pages/home_page.dart';
+import '../src/pages/shopping_cart_page.dart';
+import '../src/themes/light_color.dart';
+import '../src/themes/theme.dart';
+import '../src/widgets/BottomNavigationBar/bottom_navigation_bar.dart';
+import '../src/widgets/title_text.dart';
+import '../src/widgets/extentions.dart';
 
 class MainPage extends StatefulWidget {
-  MainPage({Key key, this.title}) : super(key: key);
-
-  final String title;
-
   @override
   _MainPageState createState() => _MainPageState();
 }
@@ -38,7 +34,8 @@ class _MainPageState extends State<MainPage> {
               ),
               //child: Image.asset("assets/user.png"),
             ),
-          ).ripple(() {}, borderRadius: BorderRadius.all(Radius.circular(13)))
+          ).ripple(() {},
+              borderRadius: const BorderRadius.all(Radius.circular(13)))
         ],
       ),
     );
@@ -46,16 +43,16 @@ class _MainPageState extends State<MainPage> {
 
   Widget _icon(IconData icon, {Color color = LightColor.iconColor}) {
     return Container(
-      padding: EdgeInsets.all(10),
+      padding: const EdgeInsets.all(10),
       decoration: BoxDecoration(
-          borderRadius: BorderRadius.all(Radius.circular(13)),
+          borderRadius: const BorderRadius.all(Radius.circular(13)),
           color: Theme.of(context).backgroundColor,
           boxShadow: AppTheme.shadow),
       child: Icon(
         icon,
         color: color,
       ),
-    ).ripple(() {}, borderRadius: BorderRadius.all(Radius.circular(13)));
+    ).ripple(() {}, borderRadius: const BorderRadius.all(Radius.circular(13)));
   }
 
   Widget _title() {
@@ -74,11 +71,11 @@ class _MainPageState extends State<MainPage> {
                 ),
               ],
             ),
-            Spacer(),
+            const Spacer(),
             !isHomePageSelected
                 ? Container(
-                    padding: EdgeInsets.all(10),
-                    child: Icon(
+                    padding: const EdgeInsets.all(10),
+                    child: const Icon(
                       Icons.delete_outline,
                       color: LightColor.orange,
                     ),
