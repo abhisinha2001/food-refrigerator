@@ -35,6 +35,7 @@ class _CaloriePageState extends State<CaloriePage> {
       ),
       body: SafeArea(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             ListView.builder(
               // ignore: avoid_types_as_parameter_names
