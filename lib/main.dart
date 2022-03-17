@@ -43,6 +43,10 @@ class _HomePageState extends State<HomePage> {
       'Index 1: Fridge',
       style: optionStyle,
     ),
+    Text(
+      'Index 2: Calorie Tracker',
+      style: optionStyle,
+    ),
     Splash(),
   ];
 
@@ -63,27 +67,35 @@ class _HomePageState extends State<HomePage> {
           BottomNavigationBarItem(
             icon: Icon(
               Icons.home,
-              size: 40,
+              size: 30,
             ),
             label: 'Home',
           ),
           BottomNavigationBarItem(
             icon: Icon(
               Icons.food_bank_outlined,
-              size: 40,
+              size: 30,
             ),
             label: 'Fridge',
           ),
           BottomNavigationBarItem(
             icon: Icon(
+              Icons.track_changes_rounded,
+              size: 30,
+            ),
+            label: 'Calorie Tracker',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(
               Icons.local_grocery_store,
-              size: 40,
+              size: 30,
             ),
             label: 'Groceries',
           ),
         ],
         currentIndex: _selectedIndex,
         selectedItemColor: Colors.green,
+        unselectedItemColor: Colors.black,
         onTap: _onItemTapped,
       ),
     );
