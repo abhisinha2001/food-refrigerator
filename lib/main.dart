@@ -43,10 +43,7 @@ class _HomePageState extends State<HomePage> {
       'Index 1: Fridge',
       style: optionStyle,
     ),
-    Text(
-      'Index 2: Groceries',
-      style: optionStyle,
-    ),
+    Splash(),
   ];
 
   void _onItemTapped(int index) {
