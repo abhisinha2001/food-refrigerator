@@ -15,7 +15,8 @@ class Splash extends StatelessWidget {
         title: Text('My Cart', style: TextStyle(fontWeight: FontWeight.bold)),
         centerTitle: true,
         backgroundColor: Colors.white,
-        foregroundColor: Colors.black,
+        foregroundColor: Colors.green,
+        elevation: 0,
       ),
       body: Container(
           child: Column(

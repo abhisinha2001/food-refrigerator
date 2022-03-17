@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food_refrigerator/constants.dart';
+import 'package:food_refrigerator/screens/CaloriePage.dart';
 import 'package:food_refrigerator/screens/screen_Groceries.dart';
 import 'screens/screen_Groceries.dart';
 
@@ -35,18 +36,19 @@ class _HomePageState extends State<HomePage> {
   static const TextStyle optionStyle =
       TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
   static const List<Widget> _widgetOptions = <Widget>[
-    Text(
-      'Index 0: Home',
-      style: optionStyle,
+    Center(
+      child: Text(
+        'Index 0: Home',
+        style: optionStyle,
+      ),
     ),
-    Text(
-      'Index 1: Fridge',
-      style: optionStyle,
+    Center(
+      child: Text(
+        'Index 1: Fridge',
+        style: optionStyle,
+      ),
     ),
-    Text(
-      'Index 2: Calorie Tracker',
-      style: optionStyle,
-    ),
+    CaloriePage(),
     Splash(),
   ];
 
@@ -59,9 +61,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: _widgetOptions.elementAt(_selectedIndex),
-      ),
+      body: _widgetOptions.elementAt(_selectedIndex),
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
