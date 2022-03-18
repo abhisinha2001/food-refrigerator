@@ -4,11 +4,7 @@ An app that predicts the current food consumpation of the user and also predicts
 
 ## Screenshots
 
-<img src="https://github.com/abhisinha2001/food-refrigerator/blob/main/screenshots/Simulator%20Screen%20Shot%20-%20iPhone%2013%20-%202022-03-18%20at%2011.06.18.png?raw=true" height="480px" >
-
-<img src="https://github.com/abhisinha2001/food-refrigerator/blob/main/screenshots/Simulator%20Screen%20Shot%20-%20iPhone%2013%20-%202022-03-18%20at%2011.06.21.png?raw=true" height="480px" >
-
-<img src="https://github.com/abhisinha2001/food-refrigerator/blob/main/screenshots/Simulator%20Screen%20Shot%20-%20iPhone%2013%20-%202022-03-18%20at%2011.06.24.png?raw=true" height="480px" >
+<img src="https://github.com/abhisinha2001/food-refrigerator/blob/main/screenshots/Simulator%20Screen%20Shot%20-%20iPhone%2013%20-%202022-03-18%20at%2011.06.18.png?raw=true" height="480px" > <img src="https://github.com/abhisinha2001/food-refrigerator/blob/main/screenshots/Simulator%20Screen%20Shot%20-%20iPhone%2013%20-%202022-03-18%20at%2011.06.21.png?raw=true" height="480px" > <img src="https://github.com/abhisinha2001/food-refrigerator/blob/main/screenshots/Simulator%20Screen%20Shot%20-%20iPhone%2013%20-%202022-03-18%20at%2011.06.24.png?raw=true" height="480px" >
 
 ## Features
 
