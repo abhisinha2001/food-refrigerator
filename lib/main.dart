@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food_refrigerator/constants.dart';
+import 'package:food_refrigerator/screens/food.dart';
 
 void main() {
   runApp(const MyApp());
@@ -33,10 +34,7 @@ class _HomePageState extends State<HomePage> {
   static const TextStyle optionStyle =
       TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
   static const List<Widget> _widgetOptions = <Widget>[
-    Text(
-      'Index 0: Home',
-      style: optionStyle,
-    ),
+    food(),
     Text(
       'Index 1: Fridge',
       style: optionStyle,
