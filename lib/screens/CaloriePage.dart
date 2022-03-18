@@ -31,7 +31,7 @@ class _CaloriePageState extends State<CaloriePage> {
         ),
         elevation: 0,
         backgroundColor: Colors.white,
-        foregroundColor: Colors.green,
+        foregroundColor: Colors.blue,
       ),
       body: SafeArea(
         child: Column(
@@ -78,7 +78,7 @@ class _CaloriePageState extends State<CaloriePage> {
               width: double.infinity,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10),
-                color: Colors.green,
+                color: Colors.blue,
               ),
               child: Center(
                 child: Text(

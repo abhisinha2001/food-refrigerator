@@ -30,7 +30,7 @@ class _FridgePageState extends State<FridgePage> {
         ),
         elevation: 0,
         backgroundColor: Colors.white,
-        foregroundColor: Colors.green,
+        foregroundColor: Colors.blue,
       ),
       body: SafeArea(
         child: Column(
@@ -64,7 +64,7 @@ class _FridgePageState extends State<FridgePage> {
                       ),
                       trailing: const Icon(
                         Icons.add_box,
-                        color: Colors.green,
+                        color: Colors.blue,
                         size: 40,
                       ),
                     ),
@@ -90,7 +90,7 @@ class _FridgePageState extends State<FridgePage> {
                 width: double.infinity,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10),
-                  color: Colors.green,
+                  color: Colors.blue,
                 ),
                 child: const Center(
                   child: Text(

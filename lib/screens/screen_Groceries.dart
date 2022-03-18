@@ -15,7 +15,7 @@ class Splash extends StatelessWidget {
         title: Text('My Cart', style: TextStyle(fontWeight: FontWeight.bold)),
         centerTitle: true,
         backgroundColor: Colors.white,
-        foregroundColor: Colors.green,
+        foregroundColor: Colors.blue,
         elevation: 0,
       ),
       body: Container(
@@ -90,7 +90,7 @@ class Splash extends StatelessWidget {
                                       child: Text(
                                         '+'.toString(),
                                         style: TextStyle(
-                                            color: Colors.green, fontSize: 30),
+                                            color: Colors.blue, fontSize: 30),
                                       ),
                                       onPressed: () => null,
                                       style: ButtonStyle(
@@ -178,7 +178,7 @@ class Splash extends StatelessWidget {
                                       child: Text(
                                         '+'.toString(),
                                         style: TextStyle(
-                                            color: Colors.green, fontSize: 30),
+                                            color: Colors.blue, fontSize: 30),
                                       ),
                                       onPressed: () => null,
                                       style: ButtonStyle(
@@ -266,7 +266,7 @@ class Splash extends StatelessWidget {
                                       child: Text(
                                         '+'.toString(),
                                         style: TextStyle(
-                                            color: Colors.green, fontSize: 30),
+                                            color: Colors.blue, fontSize: 30),
                                       ),
                                       onPressed: () => null,
                                       style: ButtonStyle(
@@ -353,7 +353,7 @@ class Splash extends StatelessWidget {
                                       child: Text(
                                         '+'.toString(),
                                         style: const TextStyle(
-                                            color: Colors.green, fontSize: 30),
+                                            color: Colors.blue, fontSize: 30),
                                       ),
                                       onPressed: () => null,
                                       style: ButtonStyle(
@@ -386,11 +386,11 @@ class Splash extends StatelessWidget {
         },
         style: ButtonStyle(
           minimumSize: MaterialStateProperty.all(const Size(370, 80)),
-          backgroundColor: MaterialStateProperty.all(Colors.green),
+          backgroundColor: MaterialStateProperty.all(Colors.blue),
           shape: MaterialStateProperty.all<RoundedRectangleBorder>(
               RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(20.0),
-                  side: const BorderSide(color: Colors.green))),
+                  side: const BorderSide(color: Colors.blue))),
         ),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
